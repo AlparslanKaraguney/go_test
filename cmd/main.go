@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	H "gotest/pkg/hello"
+	Logger "gotest/logger"
 )
 
 func main() {
-	fmt.Println(H.Hello("Alparslan"))
+	Logger.Log("Program started")
 }
