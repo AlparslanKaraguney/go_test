@@ -21,22 +21,17 @@ To test all subdirectories run the command:
 go test ./pkg/...
 ```
 
-Or to test just the packages with name "_test" at the end:
-```
-go test ./*_test
-```
-
-To get the coverage of all packages while testing:
-```
-go test -cover ./pkg/...
-```
-
 To get detailed log while testing use -v flag after command like:
 ```
 go test ./pkg/... -v
 ```
 
 ## Code coverage
+
+To get the coverage of all packages while testing:
+```
+go test -cover ./pkg/...
+```
 
 Get coverage HTML report by:
 ```
